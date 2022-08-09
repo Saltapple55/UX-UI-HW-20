@@ -1,121 +1,168 @@
-
-<html>
-
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <title>
-            My Case Study
-        </title>
-    </head>
-    <body>
-        <header class="navigation">
-          <!--<div class ="inline-block" "logo">
-                <img src= "images/BirdLogo.png">
-            </div>-->  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link  rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Chess'n Math Association!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="https://saltapple55.github.io/UX-UI-Homework-19/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#intro">Introduction</a>
+          <a class="nav-item nav-link" href="#research">Research</a>
+          <a class="nav-item nav-link" href="#design">Design</a>
+          <a class="nav-item nav-link" href="#prototype">Prototype</a>
+        </div>
+      </div>
+    </nav>
+      <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">WEB RE-DESIGN: Chess’n Math Association</h1>
+        <hr class="my-4">
 
-            <nav class="inline-block">
-                <ul>
-                    <img src= "images/BirdLogo.png">
-                    <li><a href="#heroImg">About</a></li>
-                    <li><a href="#mySkills">Skills</a></li>
-                    <li><a href="#myWork">Work</a></li>
-                    <li><a href="#myContact">Contact</a></li>
-                </ul>
-            </nav> 
-              
-        </header>
-        <h1>Hi, I'm Audrey!</h1>
-        <section id ="heroImg">
-            <div class = "content">
-                <img src="images/Pigeon.png">
-                <p>I’m Audrey Tjandra, a freelance UX/UI designer. I specialize in UX Research
-                    and web programming, and I enjoy cleaning up and creating new websites! 
-                    In addition to all the typical UX/UI and webdesign tools, I like to do a little bit 
-                    of drawing on the side!</p>
-                <p> My Tools:</p>
-                <button> Download Resume</button>
+      </div id = "intro">
+      <div class = "right text">
+        <p>Project Members: </p>
+        <p>Audrey Tjandra, Maaza Ali, Ishita Sawant </p>
+        <h2> Project Overview</h2>
+        <p>Chess’n Math Association is a non-profit organization dedicated to teaching children chess. They run extracurriculars in various schools and cities at an affordable price, fostering the development of the brain. 
+        </p>
+        <p>However, Chess’n Math had some difficulty getting new customers with their website, especially with competitors arising. We set to re-design the website to make it more appealing to customers</p>
+        <h2> Our Responsibilities</h2>
+        <p> We first did research on current and potential customers to  find out their issues with the website. Taking those issues, we created a user persona to base the redesign for. All of then contributed to creating and iterating a wireframe, taking redesign elements from answers to create our current prototype. </p>
+        <p>In particular, I was the representative from Chess’n Math Association, and was thus able to speak for the company’s needs to my team. My position allowed me to reach out to current customers more easily. My insight also informed a lot of redesign decisions for the initial wireframes, what was needed and what was redundant. </p>
+      
+      </div id = "research">
+      <h1>Research & Findings</h1>
+      <h2>Research</h2>
+      <div class="container">
+        <div class = "row">
+          <div class="col-sm"> 
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <img class="card-img-top center" src="images/Group 128horse.png" alt="Card image cap" style ="width: 70px" >
+                <h5 class="card-title">5 User Interviews</h5>
+                <p class="card-text">15-20 Minutes each, asking for their motivations for lessons, what they were looking for, and their opinions on the website</p>
+              </div>
             </div>
- <!--  My UX Skills section coded using CSS flex -->
-        </section>  
-        <section id = "mySkills">
-            <h1> My UX Skills</h1>
-            <div class="flexContainer">
-                <div>
-                    
-                    <h3>UX Research </h3>
-                    <img src = "images/phone-call.png">
-                    <p>Customer Interviews, gathering survey data, problem ideation.</p>
-                </div>
-                <div>
-                    
-                    <h3> Graphic Design </h3>
-                    <img src = "images/platte.png">
-                    <p>Creating solutions, wireframing, and product design</p>
-                </div>
-                <div>
-                    <h3>
-                        Web Coding 
-                    </h3>
-                    <img src="images/laptop.png">
-                    <p>Implementing design features as a functional website</p>
-                </div>
+          </div>
+          <div class="col-sm"> 
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top center" src="images/Group 129king.png" alt="Card image cap" style ="width: 70px">
+              <div class="card-body">
+                <h5 class="card-title"> 1 Stakeholder Interview</h5>
+                <p class="card-text">Learning what he expected from the re-design, including things he disliked, and what he wanted out of the re-design</p>
+              </div>
             </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top center" src="images/Group 125Pawn.png" alt="Card image cap" style ="width: 70px">
+              <div class="card-body">
+                <h5 class="card-title">Survey</h5>
+                <p class="card-text">A survey to the parents of existing customers. They were asked about how they felt about using the website, and in particular, getting data about their booking process and asking for what they, as regulars, thought could be improved.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <h2>Findings</h2>
+    <div class="container">
+      <div class = "row">
+        <div class="col-sm"> 
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img class="card-img-top center" src="images/Group 128horse.png" alt="Card image cap" style ="width: 70px" >
+              <h5 class="card-title">Cluttered Homepage</h5>
+              <p class="card-text">The many banners on the home page are disorganized, leading customers to become confused.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm"> 
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top center" src="images/Group 129king.png" alt="Card image cap" style ="width: 70px">
+            <div class="card-body">
+              <h5 class="card-title">Long Checkout</h5>
+              <p class="card-text">The checkout process is very long and time-consuming because there is a lot of information to put each time, and the company does not save customer information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top center" src="images/Group 125Pawn.png" alt="Card image cap" style ="width: 70px">
+            <div class="card-body">
+              <h5 class="card-title">Difficult Navigation</h5>
+              <p class="card-text">Finding the registration page for programs was difficult because the website was crowded, and had too many pages.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+  <div>
+      <h3>USER INSIGHT</h3>
+      <p>
+        Users get deterred from using Chess’n Math due to the confusing navigation and the many steps it takes to book a class online.</p>
+      <h3>PROBLEM SOLUTION</h3>
+      <p>
+        We believe, that by redesigning the Chess’n Math website with a focus on creating an organized and seamless navigation with emphasis on a simple design, will reduce the time it takes for a user to engage with the website by half and increase the number of registrations.
+      </p>
+      <p>
+        We will know our redesign is successful if we manage to address the design and navigation challenges and thus increase the number of registrations and website traffic
+      </p>
+    </div>
+    <div id = 'design'>
+      <h2>Low-Fidelity Prototype</h2>
+      <p>Based on initial feedback from interviews, we focused on simplifying the registration process by allowing customers to filter classes based on time and skill preferences.</p>
+      <p>In addition, the number of pages for checkout have been reduced, with the option to bypass the process through login.</p>
+      <div class = "row">
+        <div class = "column">
+         <img src="images/Desktop - 7 1Pay.png" width="400px">
+          <img src="images/Desktop - 6 1.png" width = "400px">
+        </div>
+      </div>
+  </div>
+    </div>
 
-        </section>
- <!-- My Work Section Constructed using CSS Grid -->
-        <section id = "myWork">
-            <h1> My Work</h1>
-            <div class = "workGrid">  
-                <div class = "workItem">
-                    <h4>Chess’n Math Association</h4>
-                    <img src = "images/Rectangle 6.png" width = "150px">
-                    <p>
-                        UX/UI, research, style and product design.
-                    </p>
-                    <button> See Project</button>
-                </div>
-                
-                <div class = "workItem">
-                    <h4>Coming Soon!</h4>
-                    <img src = "images/Pigeon.png" width = "150px">
-                    <p>
-                    More and more fun projects are still being worked on!. 
-                    </p>
-                    <button> See Project</button>
-                </div>
-                <h3> View all projects</h3>
-            </div>
-        </section> 
-        <section id = "myContact">
-            <h1> Get in Touch!</h1>
-            <div class = "contactGrid">  
-                <div>
-                    <h4>Email</h4>
-                    <p>
-                        tjandraaudrey@hotmail.com
-                    </p>
-                </div>
-                <div>
-                    <h4>Phone number</h4>
-                    <p>+1 647-545-9539</p>
-                </div>
-
-            </div>
-        </section> 
-        <footer>
-            <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </ul>
-        </footer>
-    </body>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+    <div>
+      <h2>User Tests and Mid-fidelity Prototype</h2>
+      <p>Based on initial feedback from interviews, we focused on simplifying the registration process by allowing customers to filter classes based on time and skill preferences.</p>
+      <p>In addition, the number of pages for checkout have been reduced, with the option to bypass the process through login.</p>
+      <img src="images/Mid-Fi mobile 1.png" width ="400px">
+    </div>
+    <div id="prototype">
+      <h1>High-Fidelity Protoype</h1>
+      <div class = "row">
+        <div class = "column">
+          <div class = 'proto'>
+          <a href = "https://www.figma.com/proto/LOU4Km1RBvxXC7oWdETiqK/Chess-n'-Math?node-id=245%3A5005&scaling=scale-down&page-id=245%3A3782&starting-point-node-id=245%3A5005"> Try the desktop version here!</a>
+          <img src = "images/Group 39472Protdeskt.png" width = "500 px">
+        </div>
+        <div class = 'proto'>
+          <a href = "https://www.figma.com/proto/LOU4Km1RBvxXC7oWdETiqK/Chess-n'-Math?node-id=163%3A2306&scaling=scale-down&page-id=163%3A2305&starting-point-node-id=163%3A2306">Try the mobile version here!</h3>
+          <img src = "images/Group 39473protomobile.png">
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
